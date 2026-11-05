@@ -1,0 +1,10 @@
+{
+  "name": "skymp-jobs-example",
+  "version": "0.1.0-dev.20261104",
+  "kind": "gamemode",
+  "displayName": "Jobs example registration",
+  "description": "Standalone registration example; no profession gameplay",
+  "main": "index.cjs",
+  "optional": true,
+  "startupDefault": false
+}

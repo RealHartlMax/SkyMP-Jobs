@@ -1,0 +1,11 @@
+{
+  "identity": "native-record",
+  "persistence": "native",
+  "maxJobs": 3,
+  "maxConcurrentDuty": 1,
+  "tickMs": 1000,
+  "maxDutyGapMs": 5000,
+  "chat": true,
+  "ui": true,
+  "commands": { "job": "job", "jobs": "jobs", "duty": "duty", "professions": "professions" }
+}

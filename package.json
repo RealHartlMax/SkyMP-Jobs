@@ -1,0 +1,22 @@
+{
+  "name": "skymp-jobs",
+  "version": "0.1.0-dev.20261104",
+  "private": true,
+  "description": "Server-authoritative jobs and professions for the local SkyMP fork",
+  "license": "GPL-3.0-only",
+  "engines": { "node": ">=20" },
+  "main": "dist/library.cjs",
+  "types": "dist/types/src/library.d.ts",
+  "scripts": {
+    "build": "node tools/build.cjs",
+    "typecheck": "node node_modules/typescript/bin/tsc --noEmit",
+    "test": "npm run build && node --test tests/*.test.cjs",
+    "check": "npm run typecheck && npm test",
+    "verify:fork": "npm run build && node tools/verify-fork.cjs"
+  },
+  "devDependencies": {
+    "@types/node": "22.20.5",
+    "esbuild": "0.28.2",
+    "typescript": "5.9.3"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "skymp-jobs",
+  "version": "0.1.0-dev.20261104",
+  "kind": "gamemode",
+  "displayName": "SkyMP Jobs",
+  "description": "Job registry, character professions, permissions and duty service",
+  "main": "index.cjs",
+  "optional": true,
+  "startupDefault": false
+}

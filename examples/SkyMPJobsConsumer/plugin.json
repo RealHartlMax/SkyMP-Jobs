@@ -1,0 +1,10 @@
+{
+  "name": "skymp-jobs-consumer",
+  "version": "0.1.0-dev.20261104",
+  "kind": "gamemode",
+  "displayName": "Jobs example consumer",
+  "description": "Standalone server-side permission consumer",
+  "main": "index.cjs",
+  "optional": true,
+  "startupDefault": false
+}

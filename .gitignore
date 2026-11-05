@@ -1,0 +1,7 @@
+node_modules/
+dist/
+build/
+artifacts/
+coverage/
+*.tsbuildinfo
+config/config.local.json
